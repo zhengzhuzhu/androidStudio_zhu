@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sy3_2administrator">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".addrelation"
+            android:label="联系人">
+        </activity>
+
+        <activity android:name=".query_2"
+            android:label="查询结果">
+        </activity>
+        <activity android:name=".delete_activity"
+            android:label="删除联系人">
+        </activity>
+        <activity android:name=".update_activity"
+            android:label="修改联系人">
+        </activity>
+    </application>
+
+</manifest>

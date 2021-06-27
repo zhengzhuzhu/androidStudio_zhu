@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="user_name">CXH</string>
+    <string-array name="class_name">
+        <item>计科1171</item>
+        <item>计科1172</item>
+        <item>计科1173</item>
+        <item>计科1174</item>
+    </string-array>
+</resources>

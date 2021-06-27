@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/muOpt1"
+        android:title="菜单项一"/>
+    <item
+        android:id="@+id/muOpt2"
+        android:title="菜单项二">
+    </item>
+    <item
+        android:id="@+id/muOpt3"
+        android:title="菜单项三"/>
+</menu>

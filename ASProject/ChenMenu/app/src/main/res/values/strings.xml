@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ChenMenu</string>
+    <string name="t1">菜单</string>
+    <string name="txt1">这是上下选项1</string>
+    <string name="txt11">欢迎界面一：发起群聊</string>
+    <string name="txt2">这是菜单项2</string>
+    <string name="txt22">欢迎来到游戏界面！</string>
+    <string name="txt3">这是菜单项3</string>
+    <string name="txt33">欢迎来到程序人生！</string>
+    <string name="txt4">这是菜单项4</string>
+    <string name="txt44">欢迎来到生活小贴士！</string>
+</resources>

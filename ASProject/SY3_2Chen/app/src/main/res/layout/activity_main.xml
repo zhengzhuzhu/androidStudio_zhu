@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+        <TextView
+            android:id="@+id/txPeple"
+            android:text="联系人"
+            android:textSize="30sp"
+            android:textColor="#62E200"
+            android:textStyle="italic|bold"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/btadd"
+            android:text="添加"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="#14D100"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_alignBaseline="@+id/txPeple"
+            android:layout_toRightOf="@+id/txPeple"
+            android:layout_marginLeft="160dp" />
+
+        <Button
+            android:id="@+id/btsearch"
+            android:text="搜索"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="#14D100"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignTop="@+id/edSearch"
+            android:layout_alignRight="@+id/btadd"
+            android:layout_toRightOf="@+id/edSearch" />
+        <EditText
+            android:id="@+id/edSearch"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/txPeple"
+            android:layout_alignLeft="@+id/txPeple"
+            android:hint="搜索联系人"
+            android:textColorHint="#62E200"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:id="@+id/tishi"
+            android:text="提示：单击列表进入修改页面；长按进行删除操作"
+            android:textColor="#62E200"
+            android:textStyle="italic|bold"
+            android:gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/edSearch"
+            android:layout_alignLeft="@id/edSearch"
+            />
+        <ListView
+            android:id="@+id/lvshow"
+            android:layout_width="350dp"
+            android:layout_height="520dp"
+            android:layout_below="@+id/tishi"
+            android:layout_alignLeft="@+id/edSearch"
+            android:layout_marginTop="20dp" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="122dp">
+
+        <TextView
+            android:id="@+id/txPeple"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="新增联系人"
+            android:textColor="#62E200"
+            android:textSize="30sp"
+            android:textStyle="italic|bold" />
+
+        <TextView
+            android:id="@+id/txname"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="100dp"
+            android:background="#47DC00"
+            android:gravity="center"
+            android:text="姓名"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edname"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="100dp"
+            android:layout_toRightOf="@+id/txname"
+            android:background="#e5faff"
+            android:hint="name"
+            android:selectAllOnFocus="true" />
+
+        <TextView
+            android:id="@+id/txphone"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/txname"
+            android:layout_alignRight="@+id/txname"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:background="#14D100"
+            android:gravity="center"
+            android:text="手机"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edphone"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/edname"
+            android:layout_alignBottom="@+id/txphone"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/txphone"
+            android:background="#e5faff"
+            android:hint="phone"
+            android:inputType="phone"
+            android:selectAllOnFocus="true" />
+
+        <TextView
+            android:id="@+id/txemail"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/txphone"
+            android:layout_alignRight="@+id/txname"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:background="#14D100"
+            android:gravity="center"
+            android:text="邮箱"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edemail"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/txemail"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/txemail"
+            android:background="#e5faff"
+            android:hint="e-mail"
+            android:selectAllOnFocus="true" />
+
+        <TextView
+            android:id="@+id/txshort"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/txemail"
+            android:layout_alignRight="@+id/txname"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:background="#14D100"
+            android:gravity="center"
+            android:text="短号"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edshort"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/txshort"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/txshort"
+            android:background="#e5faff"
+            android:hint="shortcall"
+            android:selectAllOnFocus="true" />
+
+        <Button
+            android:id="@+id/btsubmit"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/txshort"
+            android:layout_alignLeft="@+id/txshort"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:background="#14D100"
+            android:text="提交"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btcancle"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@id/btsubmit"
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@id/btsubmit"
+            android:background="#14D100"
+            android:text="取消"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

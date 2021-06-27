@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="default_button">Default</string>
+    <string name="custom_position">Custom Position</string>
+    <string name="custom_picture">Custom Picture</string>
+    <string name="custom">Custom</string>
+    <string name="otherthread">OtherThread</string>
+
+</resources>

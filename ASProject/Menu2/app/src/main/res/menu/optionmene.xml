@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/opt1"
+        android:title="选项一：变为绿色">
+        <menu>
+        <item
+            android:id="@+id/opt1_1"
+            android:title="子菜单一：变为黄绿色" />
+        <item
+            android:id="@+id/opt1_2"
+            android:title="子菜单二：变为蓝绿色" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/opt2"
+        android:title="选项二：变为黄色" />
+    <item
+        android:id="@+id/opt3"
+        android:title="选项三：变为红色" />
+
+</menu>

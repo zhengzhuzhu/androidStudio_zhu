@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/pop1"
+        android:title="弹出菜单一发起群聊"/>
+    <item
+        android:id="@+id/pop2"
+        android:title="弹出菜单二添加好友"/>
+     <item
+        android:id="@+id/pop3"
+        android:title="弹出菜单三扫一扫"/>
+
+</menu>

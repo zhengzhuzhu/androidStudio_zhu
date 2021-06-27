@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/cmenu1" android:title="上下文菜单1" />
+    <item android:id="@+id/cmenu2" android:title="上下文菜单2" />
+    <item android:id="@+id/csubmenu1" android:title="来自xml,我还有子菜单">
+        <menu>
+            <item android:title="子菜单1"></item>
+            <item android:title="子菜单2"></item>
+            <item android:title="子菜单3"></item>
+        </menu>
+    </item>
+    <item android:id="@+id/csubmenu2" android:title="来自xml,我还有单选子菜单">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:title="子菜单1"></item>
+                <item android:title="子菜单2"></item>
+                <item android:title="子菜单3"></item>
+            </group>
+        </menu>
+    </item>
+    <item android:id="@+id/csubmenu3" android:title="来自xml,我还有多选子菜单">
+        <menu>
+            <group android:checkableBehavior="all">
+                <item android:title="子菜单1"></item>
+                <item android:title="子菜单2"></item>
+                <item android:title="子菜单3"></item>
+            </group>
+        </menu>
+    </item>
+
+    <item android:id="@+id/buttonmenu1" android:title="带按钮的单选子菜单">
+    </item>
+
+    <item android:id="@+id/buttonmenu2" android:title="带按钮的多选子菜单">
+    </item>
+</menu>

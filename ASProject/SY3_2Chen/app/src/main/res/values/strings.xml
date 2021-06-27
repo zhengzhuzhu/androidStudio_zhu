@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SQLite</string>
+    <string name="phoneNumWarning">手机号应为11位数</string>
+    <string name="phoneWarning">请填入正确的手机号</string>
+    <string name="emailWarning">邮箱不正确</string>
+    <string name="nameWarning">姓名为空</string>
+    <string name="titleChange">修改联系人</string>
+</resources>

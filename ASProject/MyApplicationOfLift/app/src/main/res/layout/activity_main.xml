@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    <TextView-->
+<!--        android:id="@+id/T1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Hello World!"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/B1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginLeft="16dp"-->
+<!--        android:onClick="b1_onClick"-->
+<!--        android:text="Button"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!" />
+        <Button
+            android:id= "@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/default_button"
+            android:textAllCaps="false"/>
+        <Button
+            android:id= "@+id/custom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/custom"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id= "@+id/otherthread"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/otherthread"
+            android:textAllCaps="false"/>
+        <Button
+            android:id= "@+id/custom_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/custom_position"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id= "@+id/custom_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/custom_picture"
+            android:textAllCaps="false"/>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

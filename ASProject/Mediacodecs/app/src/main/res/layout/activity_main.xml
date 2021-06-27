@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/play"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/fbutton_color_clouds"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="5dp"
+        android:text="开始"/>
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/pause"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/fbutton_color_clouds"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="5dp"
+        android:text="停止"/>
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/replay"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/fbutton_color_clouds"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:text="重播"/>
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/next"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/fbutton_color_clouds"
+        android:layout_below="@+id/play"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:text="下一个"/>
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/up"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/fbutton_color_clouds"
+        android:layout_below="@+id/pause"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="5dp"
+        android:text="上一个"/>
+
+
+
+
+    <VideoView
+        android:id="@+id/Video_view"
+        android:layout_marginTop="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="391dp"
+        android:layout_below="@id/Video_view"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"/>
+
+
+
+
+</RelativeLayout>
